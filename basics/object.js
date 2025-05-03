@@ -36,6 +36,13 @@
  }
  user.greeting()
 
+user.greetingTwo=function(){
+  console.log(`Hello, JS user, ${this["full name"]}`);
+  
+}
+user.greetingTwo();
+
+
  
   
   
